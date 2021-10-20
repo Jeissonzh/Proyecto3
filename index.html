@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignacion de turnos</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body class="body">
+    <header class="title">
+        <h1>Asignacion de turnos</h1>
+        <img src="assets/img/logo.jpg" alt="Logo">
+    </header>
+
+    <div class="container">
+        <h2>Ingrese los datos solicitados a continuacion para generar su turno:</h2>
+        <br>
+        <br>
+        <form class="form">
+            <label for="numId">No. de ID: </label>
+            <input id="numId" type="number" max="9999999999"/>
+            <br>
+            <br>
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" type="text"/>
+            <br>
+            <br>
+            <label for="correo">Correo: </label>
+            <input id="correo" type="email"/>
+            <br>
+            <br>
+            <label for="celular">Celular: </label>
+            <input id="celular" type="number" max="9999999999"/>
+            <br>
+            <br>
+            <label for="edad">Edad: </label>
+            <input id="edad" type="number" max="999"/>
+            <br>
+            <br>
+            <br />
+            <button class="button" id="saveDataBtn">Guardar</button>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+
+</html>
